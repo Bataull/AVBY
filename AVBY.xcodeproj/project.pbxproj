@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1162BAFB2B2203C4004B8543 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BAFA2B2203C4004B8543 /* SearchViewController.swift */; };
+		1162BAFE2B2203F3004B8543 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BAFD2B2203F3004B8543 /* FavouritesViewController.swift */; };
+		1162BB002B220467004B8543 /* AnnouncesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BAFF2B220467004B8543 /* AnnouncesViewController.swift */; };
+		1162BB022B220485004B8543 /* DialogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BB012B220485004B8543 /* DialogsViewController.swift */; };
+		1162BB042B2204B0004B8543 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BB032B2204B0004B8543 /* MoreViewController.swift */; };
+		1162BB062B221B88004B8543 /* TabBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162BB052B221B88004B8543 /* TabBarProtocol.swift */; };
 		117894982B1BAB87007B0B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117894972B1BAB87007B0B49 /* AppDelegate.swift */; };
 		1178949A2B1BAB87007B0B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117894992B1BAB87007B0B49 /* SceneDelegate.swift */; };
-		1178949C2B1BAB87007B0B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178949B2B1BAB87007B0B49 /* ViewController.swift */; };
 		1178949F2B1BAB87007B0B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1178949D2B1BAB87007B0B49 /* Main.storyboard */; };
 		117894A12B1BAB88007B0B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117894A02B1BAB88007B0B49 /* Assets.xcassets */; };
 		117894A42B1BAB88007B0B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117894A22B1BAB88007B0B49 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1162BAFA2B2203C4004B8543 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1162BAFD2B2203F3004B8543 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		1162BAFF2B220467004B8543 /* AnnouncesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncesViewController.swift; sourceTree = "<group>"; };
+		1162BB012B220485004B8543 /* DialogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogsViewController.swift; sourceTree = "<group>"; };
+		1162BB032B2204B0004B8543 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		1162BB052B221B88004B8543 /* TabBarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocol.swift; sourceTree = "<group>"; };
 		117894942B1BAB87007B0B49 /* AVBY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVBY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117894972B1BAB87007B0B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		117894992B1BAB87007B0B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1178949B2B1BAB87007B0B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1178949E2B1BAB87007B0B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		117894A02B1BAB88007B0B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117894A32B1BAB88007B0B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1162BAFC2B2203D8004B8543 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1162BAFA2B2203C4004B8543 /* SearchViewController.swift */,
+				1162BAFD2B2203F3004B8543 /* FavouritesViewController.swift */,
+				1162BAFF2B220467004B8543 /* AnnouncesViewController.swift */,
+				1162BB012B220485004B8543 /* DialogsViewController.swift */,
+				1162BB032B2204B0004B8543 /* MoreViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		1178948B2B1BAB87007B0B49 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +78,10 @@
 		117894962B1BAB87007B0B49 /* AVBY */ = {
 			isa = PBXGroup;
 			children = (
+				1162BAFC2B2203D8004B8543 /* ViewControllers */,
 				117894972B1BAB87007B0B49 /* AppDelegate.swift */,
+				1162BB052B221B88004B8543 /* TabBarProtocol.swift */,
 				117894992B1BAB87007B0B49 /* SceneDelegate.swift */,
-				1178949B2B1BAB87007B0B49 /* ViewController.swift */,
 				1178949D2B1BAB87007B0B49 /* Main.storyboard */,
 				117894A02B1BAB88007B0B49 /* Assets.xcassets */,
 				117894A22B1BAB88007B0B49 /* LaunchScreen.storyboard */,
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1178949C2B1BAB87007B0B49 /* ViewController.swift in Sources */,
+				1162BB042B2204B0004B8543 /* MoreViewController.swift in Sources */,
+				1162BAFE2B2203F3004B8543 /* FavouritesViewController.swift in Sources */,
+				1162BAFB2B2203C4004B8543 /* SearchViewController.swift in Sources */,
+				1162BB022B220485004B8543 /* DialogsViewController.swift in Sources */,
+				1162BB002B220467004B8543 /* AnnouncesViewController.swift in Sources */,
+				1162BB062B221B88004B8543 /* TabBarProtocol.swift in Sources */,
 				117894982B1BAB87007B0B49 /* AppDelegate.swift in Sources */,
 				1178949A2B1BAB87007B0B49 /* SceneDelegate.swift in Sources */,
 			);
