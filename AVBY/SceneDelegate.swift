@@ -1,5 +1,7 @@
 import UIKit
 
+//MARK: - Tab bar + Nav controller
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -10,6 +12,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         self.window = window
+        
+// Tab Bar
         
         let tabBarController = UITabBarController()
         
@@ -22,11 +26,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         tabBarController.viewControllers = [searchViewController,favouritesViewController,announcesViewContoller,dialogsViewController,moreViewContoller]
         
         tabBarController.tabBar.backgroundColor = UIColor(named: "tabBarBg")
-        tabBarController.tabBar.tintColor = UIColor.systemBlue
+        tabBarController.tabBar.tintColor = UIColor(named: "iconsColor")
+        
+// Nav Bar
         
         let navigationController = UINavigationController(rootViewController: tabBarController)
-        window.rootViewController = navigationController
-        
+
+        navigationController.navigationBar.backgroundColor = UIColor(named: "tabBarBg")
+        navigationController.navigationBar.prefersLargeTitles = true
+
+        window.rootViewController = tabBarController
         window.makeKeyAndVisible()
     }
 }

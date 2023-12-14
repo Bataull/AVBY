@@ -1,5 +1,7 @@
 import UIKit
 
+//MARK: - TabBar Setted
+
 protocol TabBarConfigurable {
     func configureTabBarUI(title: String, imageName: String, imageSize: CGSize)
 }
